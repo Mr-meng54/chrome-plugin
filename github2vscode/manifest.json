@@ -1,0 +1,16 @@
+{
+  "name": "GITHUB TO VSCODE",
+  "description": "",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs", "contextMenus"],
+  "icons": {
+    "16": "/images/vscode16.png",
+    "32": "/images/vscode32.png",
+    "48": "/images/vscode48.png",
+    "128": "/images/vscode128.png"
+  }
+}
